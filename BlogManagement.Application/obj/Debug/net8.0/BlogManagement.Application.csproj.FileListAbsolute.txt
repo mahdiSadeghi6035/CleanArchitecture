@@ -1,0 +1,15 @@
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.csproj.AssemblyReference.cache
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.AssemblyInfoInputs.cache
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.AssemblyInfo.cs
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.csproj.CoreCompileInputs.cache
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\bin\Debug\net8.0\BlogManagement.Application.deps.json
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\bin\Debug\net8.0\BlogManagement.Application.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\bin\Debug\net8.0\BlogManagement.Application.pdb
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\bin\Debug\net8.0\BlogManagement.Domain.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\bin\Debug\net8.0\BlogManagement.Domain.pdb
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.csproj.CopyComplete
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\refint\BlogManagement.Application.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\BlogManagement.Application.pdb
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Application\obj\Debug\net8.0\ref\BlogManagement.Application.dll

@@ -1,0 +1,11 @@
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\bin\Debug\net8.0\BlogManagement.Domain.deps.json
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\bin\Debug\net8.0\BlogManagement.Domain.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\bin\Debug\net8.0\BlogManagement.Domain.pdb
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.AssemblyInfo.cs
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\refint\BlogManagement.Domain.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\BlogManagement.Domain.pdb
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Domain\obj\Debug\net8.0\ref\BlogManagement.Domain.dll
