@@ -17,5 +17,6 @@ public static class RegisterContainerPersistence
 
         services.AddDbContext<BlogContext>(x => x.UseSqlServer(connection));
         services.AddScoped<IArticleCategoryRepository, ArticleCategoryRepository>();
+        services.AddScoped<IArticleRepository, ArticleRepository>();
     }
 }

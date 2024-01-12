@@ -12,5 +12,10 @@ public class ArticleCategoryConfiguration : IEntityTypeConfiguration<ArticleCate
         builder.HasKey(x => x.Id);  
 
         builder.Property(x => x.Title).HasMaxLength(100).IsRequired();
+
+        builder.HasMany(x => x.Article)
+            .WithOne(x => x.ArticleCategory)
+            .HasForeignKey(x => x.ArticleCategoryId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

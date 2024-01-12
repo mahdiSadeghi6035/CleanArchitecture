@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66A95F57-600B-4EA0-B04F-36C4602B1C03}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{57CD7226-CF13-438B-B6F6-F746747525A3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FCCB2FF4-40A7-46EC-9D54-D214FF3A8B28}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{51FB98B1-670C-490E-A755-CB2B94F4412C}"
@@ -17,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Domain", "Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Application", "BlogManagement.Application\BlogManagement.Application.csproj", "{03183086-4615-4E43-A811-5082DE424D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Persistence", "BlogManagement.Persistence\BlogManagement.Persistence.csproj", "{D1CD64ED-9BFF-4559-B01A-284D2492AE0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Persistence", "BlogManagement.Persistence\BlogManagement.Persistence.csproj", "{D1CD64ED-9BFF-4559-B01A-284D2492AE0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Api", "BlogManagement.Api\BlogManagement.Api.csproj", "{A8107A40-150A-43C0-B085-0085C985738E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Api", "BlogManagement.Api\BlogManagement.Api.csproj", "{A8107A40-150A-43C0-B085-0085C985738E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

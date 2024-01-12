@@ -17,3 +17,4 @@ D:\Programming\BackEnd\BlogManagement\BlogManagement.Persistence\obj\Debug\net8.
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Persistence\obj\Debug\net8.0\BlogManagement.Persistence.pdb
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Persistence\obj\Debug\net8.0\BlogManagement.Persistence.genruntimeconfig.cache
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Persistence\obj\Debug\net8.0\ref\BlogManagement.Persistence.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Persistence\obj\Debug\net8.0\BlogManagement.Persistence.sourcelink.json

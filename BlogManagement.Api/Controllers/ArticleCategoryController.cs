@@ -30,8 +30,8 @@ public class ArticleCategoryController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<DetailsArticleCategoryDto>> Details(long id)
     {
-        var command = new DetailsArticleCategoryRequestQuery();
-        command.Id = id;
+        var command = new DetailsArticleCategoryRequestQuery() { Id = id};
+
         var articleCategory = await _mediator.Send(command);
 
         return articleCategory is null ? NotFound() : Ok(articleCategory);
@@ -44,7 +44,7 @@ public class ArticleCategoryController : ControllerBase
         command.CreateArticleCategoryDto = createArticleCategoryDto;
 
         var result = await _mediator.Send(command);
-        return result.IsSucceeded ? Ok(result) : BadRequest(result);
+        return result.IsSucceeded ? Ok() : BadRequest(result);
     }
 
 
@@ -55,6 +55,6 @@ public class ArticleCategoryController : ControllerBase
         command.EditArticleCategoryDto = editArticleCategoryDto;
 
         var result = await _mediator.Send(command);
-        return result.IsSucceeded ? Ok(result) : BadRequest(result);
+        return result.IsSucceeded ? Ok() : BadRequest(result);
     }
 }

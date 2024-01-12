@@ -15,7 +15,7 @@ public class OperationResult
     {
         return new OperationResult(Array.Empty<string>(), true);
     }
-    public static OperationResult Failed(string[] message)
+    public static OperationResult Failed(params string[] message)
     {
         return new OperationResult(message, false);
     }

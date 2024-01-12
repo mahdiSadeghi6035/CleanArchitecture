@@ -4,5 +4,6 @@ using BlogManagement.Domain.Entities.ArticleCategories;
 namespace BlogManagement.Application.Contracts.Persistence;
 
 public interface IArticleCategoryRepository : IGenericRepository<long, ArticleCategory>
-{ 
+{
+    Task<IReadOnlyList<ArticleCategory>> GetAllWithArticle();
 }

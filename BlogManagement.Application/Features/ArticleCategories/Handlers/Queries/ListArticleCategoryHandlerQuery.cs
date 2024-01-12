@@ -19,7 +19,7 @@ public class ListArticleCategoryHandlerQuery : IRequestHandler<ListArticleCatego
 
     public async Task<List<ListArticleCategoryDto>> Handle(ListArticleCategoryRequestQuery request, CancellationToken cancellationToken)
     {
-        var articleCategory = await _articleCategoryRepository.GetAll();
+        var articleCategory = await _articleCategoryRepository.GetAllWithArticle();
 
         var mapperArticleCategory = _mapper.Map<List<ListArticleCategoryDto>>(articleCategory);
 
