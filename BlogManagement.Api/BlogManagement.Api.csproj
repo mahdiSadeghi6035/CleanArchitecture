@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
+    <ProjectReference Include="..\BlogManagement.Identity\BlogManagement.Identity.csproj" />
     <ProjectReference Include="..\BlogManagement.Persistence\BlogManagement.Persistence.csproj" />
   </ItemGroup>
 

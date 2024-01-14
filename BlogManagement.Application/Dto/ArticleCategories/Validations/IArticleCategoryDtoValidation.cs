@@ -8,7 +8,7 @@ namespace BlogManagement.Application.Dto.ArticleCategories.Validations
         public IArticleCategoryDtoValidation()
         {
             RuleFor(x => x.Title).NotEmpty()
-                .WithMessage(ValidationMessage.RequiredMessage);
+                .Length(5,150);
         }
     }
 }

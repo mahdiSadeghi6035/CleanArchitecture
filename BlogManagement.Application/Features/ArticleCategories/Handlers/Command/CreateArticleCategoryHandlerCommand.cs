@@ -29,7 +29,7 @@ public class CreateArticleCategoryHandlerCommand : IRequestHandler<CreateArticle
 
         if (!validationResult.IsValid)
         {
-            return OperationResult.Failed(validationResult.Errors.Select(x => $"{x.PropertyName} : {x.ErrorMessage}").ToArray());
+            return OperationResult.Failed(validationResult.Errors[0].ErrorMessage);
         }
 
         var articleCategory = _mapper.Map<ArticleCategory>(request.CreateArticleCategoryDto);

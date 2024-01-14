@@ -8,9 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BlogManagement.Persistence;
 
-public static class RegisterContainerPersistence
+public static class DependencyInjection
 {
-    public static void RegisterPersistence(this IServiceCollection services,
+    public static void AddPersistence(this IServiceCollection services,
         IConfiguration configuration)
     {
         string connection = configuration.GetConnectionString("BlogDb");

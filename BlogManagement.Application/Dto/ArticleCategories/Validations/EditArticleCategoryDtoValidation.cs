@@ -9,7 +9,7 @@ namespace BlogManagement.Application.Dto.ArticleCategories.Validations
         {
             Include(new IArticleCategoryDtoValidation());
 
-            RuleFor(x => x.Id).NotNull().WithMessage(ValidationMessage.RequiredMessage);
+            RuleFor(x => x.Id).NotNull();
         }
     }
 }

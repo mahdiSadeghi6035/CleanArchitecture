@@ -23,7 +23,7 @@ public class EditArticleHandlerCommand : IRequestHandler<EditArticleRequestComma
         var validation = new EditArticleDtoValidation();
         var validationResult = await validation.ValidateAsync(request.EditArticleDto);
         if (!validationResult.IsValid)
-            return OperationResult.Failed(validationResult.Errors.Select(x => $"{x.PropertyName} : {x.ErrorMessage}").ToArray());
+            return OperationResult.Failed(validationResult.Errors[0].ErrorMessage);
 
         if (await _articleRepository.Exist(x => x.Title == request.EditArticleDto.Title && x.Id != request.EditArticleDto.Id))
             return OperationResult.Failed(ApplicationMessages.DuplicatedRecord);

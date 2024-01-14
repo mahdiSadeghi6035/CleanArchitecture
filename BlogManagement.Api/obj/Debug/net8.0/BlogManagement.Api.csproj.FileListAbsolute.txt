@@ -148,3 +148,12 @@ D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\tr\Mic
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\obj\Debug\net8.0\BlogManagement.Api.sourcelink.json
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\BlogManagement.Identity.dll
+D:\Programming\BackEnd\BlogManagement\BlogManagement.Api\bin\Debug\net8.0\BlogManagement.Identity.pdb

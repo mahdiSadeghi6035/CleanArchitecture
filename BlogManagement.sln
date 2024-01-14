@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Persistence"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Api", "BlogManagement.Api\BlogManagement.Api.csproj", "{A8107A40-150A-43C0-B085-0085C985738E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Identity", "BlogManagement.Identity\BlogManagement.Identity.csproj", "{853B8603-5265-488B-8261-934BE7773F84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{A8107A40-150A-43C0-B085-0085C985738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8107A40-150A-43C0-B085-0085C985738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8107A40-150A-43C0-B085-0085C985738E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853B8603-5265-488B-8261-934BE7773F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853B8603-5265-488B-8261-934BE7773F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853B8603-5265-488B-8261-934BE7773F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853B8603-5265-488B-8261-934BE7773F84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{03183086-4615-4E43-A811-5082DE424D36} = {FCCB2FF4-40A7-46EC-9D54-D214FF3A8B28}
 		{D1CD64ED-9BFF-4559-B01A-284D2492AE0F} = {51FB98B1-670C-490E-A755-CB2B94F4412C}
 		{A8107A40-150A-43C0-B085-0085C985738E} = {485F1B63-5ABD-410E-BDC0-F7A007B3F6E8}
+		{853B8603-5265-488B-8261-934BE7773F84} = {51FB98B1-670C-490E-A755-CB2B94F4412C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC31969F-13B7-476C-9E32-488B1EEF8706}

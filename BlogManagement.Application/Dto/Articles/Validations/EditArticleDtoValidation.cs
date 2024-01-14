@@ -7,5 +7,6 @@ public class EditArticleDtoValidation : AbstractValidator<EditArticleDto>
     public EditArticleDtoValidation()
     {
         Include(new IArticleDtoValidation());
+        RuleFor(x => x.Id).NotNull();
     }
 }

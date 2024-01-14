@@ -25,7 +25,7 @@ public class EditArticleCategoryHandlerCommand : IRequestHandler<EditArticleCate
         var validationResult = await validation.ValidateAsync(request.EditArticleCategoryDto);
 
         if (!validationResult.IsValid)
-            return OperationResult.Failed(validationResult.Errors.Select(x => $"{x.PropertyName} : {x.ErrorMessage}").ToArray());
+            return OperationResult.Failed(validationResult.Errors[0].ErrorMessage);
 
         var articleCategory = _mapper.Map<ArticleCategory>(request.EditArticleCategoryDto);
         

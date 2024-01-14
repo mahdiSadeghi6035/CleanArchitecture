@@ -7,13 +7,10 @@ public class IArticleDtoValidation : AbstractValidator<IArticleDto>
 {
     public IArticleDtoValidation()
     {
-        RuleFor(x => x.Title).NotEmpty()
-            .WithMessage(ValidationMessage.RequiredMessage);
+        RuleFor(x => x.Title).NotEmpty().Length(5, 150);
 
-        RuleFor(x => x.Description).NotEmpty()
-            .WithMessage(ValidationMessage.RequiredMessage);
+        RuleFor(x => x.Description).NotEmpty();
 
-        RuleFor(x => x.ArticleCategoryId).NotEmpty()
-            .WithMessage(ValidationMessage.RequiredMessage);
+        RuleFor(x => x.ArticleCategoryId).NotNull();
     }
 }

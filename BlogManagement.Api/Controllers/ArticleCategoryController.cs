@@ -3,6 +3,7 @@ using BlogManagement.Application.Dto.ArticleCategories;
 using BlogManagement.Application.Features.ArticleCategories.Requests.Command;
 using BlogManagement.Application.Features.ArticleCategories.Requests.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ namespace BlogManagement.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class ArticleCategoryController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -44,7 +46,7 @@ public class ArticleCategoryController : ControllerBase
         command.CreateArticleCategoryDto = createArticleCategoryDto;
 
         var result = await _mediator.Send(command);
-        return result.IsSucceeded ? Ok() : BadRequest(result);
+        return result.IsSucceeded ? Ok(result.Message) : BadRequest(result.Message);
     }
 
 
@@ -55,6 +57,6 @@ public class ArticleCategoryController : ControllerBase
         command.EditArticleCategoryDto = editArticleCategoryDto;
 
         var result = await _mediator.Send(command);
-        return result.IsSucceeded ? Ok() : BadRequest(result);
+        return result.IsSucceeded ? Ok(result.Message) : BadRequest(result.Message);
     }
 }

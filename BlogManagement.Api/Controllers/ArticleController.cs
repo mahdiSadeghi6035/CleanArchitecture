@@ -2,12 +2,14 @@
 using BlogManagement.Application.Features.Articles.Requests.Commands;
 using BlogManagement.Application.Features.Articles.Requests.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogManagement.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class ArticleController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -41,7 +43,7 @@ public class ArticleController : ControllerBase
         };
         var result = await _mediator.Send(command);
 
-        return (result.IsSucceeded) ? Ok() : BadRequest(result.Message);
+        return result.IsSucceeded ? Ok(result.Message) : BadRequest(result.Message);
     }
 
     [HttpPut]
@@ -54,7 +56,7 @@ public class ArticleController : ControllerBase
 
         var result = await _mediator.Send(command);
 
-        return (result.IsSucceeded) ? Ok() : BadRequest(result.Message);
+        return result.IsSucceeded ? Ok(result.Message) : BadRequest(result.Message);
     }
 
 }

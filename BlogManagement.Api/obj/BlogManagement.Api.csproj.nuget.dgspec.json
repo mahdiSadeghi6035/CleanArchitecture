@@ -31,6 +31,9 @@
               "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },
+              "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\BlogManagement.Identity.csproj": {
+                "projectPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\BlogManagement.Identity.csproj"
+              },
               "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Persistence\\BlogManagement.Persistence.csproj": {
                 "projectPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Persistence\\BlogManagement.Persistence.csproj"
               }
@@ -205,6 +208,83 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\BlogManagement.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\BlogManagement.Identity.csproj",
+        "projectName": "BlogManagement.Identity",
+        "projectPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\BlogManagement.Identity.csproj",
+        "packagesPath": "C:\\Users\\sadqy\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sadqy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Application\\BlogManagement.Application.csproj": {
+                "projectPath": "D:\\Programming\\BackEnd\\BlogManagement\\BlogManagement.Application\\BlogManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

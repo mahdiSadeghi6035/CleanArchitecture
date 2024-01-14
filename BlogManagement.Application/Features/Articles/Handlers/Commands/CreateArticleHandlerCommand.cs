@@ -24,7 +24,7 @@ public class CreateArticleHandlerCommand : IRequestHandler<CreateArticleRequestC
         var validation = new CreateArticleDtoValidation();
         var validationResult = await validation.ValidateAsync(request.CreateArticleDto);
         if (!validationResult.IsValid)
-            return OperationResult.Failed(validationResult.Errors.Select(x => $"{x.PropertyName} : {x.ErrorMessage}").ToArray());
+            return OperationResult.Failed(validationResult.Errors[0].ErrorMessage);
 
         if (await _articleRepository.Exist(x => x.Title == request.CreateArticleDto.Title))
             return OperationResult.Failed(ApplicationMessages.DuplicatedRecord);
